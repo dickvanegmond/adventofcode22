@@ -97,5 +97,5 @@ for line in lines:
     gridLongTail.moveH(direction, int(moves))
    
 
-# Answer Part 1
+# Answer Part 2
 print(len(set(gridLongTail.moveHistoryT)))
