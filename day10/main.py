@@ -31,7 +31,6 @@ class CPU():
             self.screen.append("█")
         else:
             self.screen.append(" ")
-
         
         if self.cycle in self.keyMoments:
             self.sumSignalStrengths += self.getSignalStrength()
