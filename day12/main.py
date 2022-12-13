@@ -1,4 +1,4 @@
-with open('day_12/input.txt') as f:
+with open('day12/input.txt') as f:
     lines = f.read().splitlines() 
 
 from queue import Queue
